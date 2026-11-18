@@ -89,7 +89,7 @@
       '<select id="loginLoc">' + lopts + '</select><button class="btn" data-act="login-staff">Enter as staff</button></div>' +
       '<div class="card role"><div class="rimg" style="background-image:url(img/hero.jpg);background-position:80% 50%"></div><h3>Manager</h3><p class="muted small" style="margin:0">See utilization and churn risk across locations.</p>' +
       '<div style="flex:1"></div><button class="btn" data-act="login-manager">Enter as manager</button></div></div></main>' +
-      '<div class="foot">Team 4: Sree Kavya, Siddhartha, Surya Sundar, Krishna Vamsi · Saint Louis University, Information Systems.</div>';
+      '<div class="foot">Team 4: Sree Kavya, Siddhartha, Surya Sunder, Krishna Vamsi · Saint Louis University, Information Systems.</div>';
   }
   function tourCardLanding() { return ''; }
 
