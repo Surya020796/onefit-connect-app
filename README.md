@@ -8,13 +8,13 @@ Open `index.html` in a browser (or run `python3 -m http.server` in this folder a
 ## Deploy free on GitHub Pages (no git commands needed)
 1. Sign in at github.com, click **New repository**, name it `onefit-connect-app`, set it to **Public**, click **Create repository**.
 2. On the empty repo page click **uploading an existing file**.
-3. Unzip this package, open the folder, select EVERYTHING inside it (`index.html`, `css`, `js`, `README.md`) and drag it into the browser window. Wait for the upload to finish.
+3. Unzip this package, open the folder, select EVERYTHING inside it (`index.html`, `app.js`, `db.js`, `config.js`, `style.css`, the `.jpg` images, `README.md`) and drag it into the browser window. Wait for the upload to finish.
 4. Click **Commit changes**.
 5. Go to **Settings > Pages**. Under **Build and deployment** choose **Deploy from a branch**, branch **main**, folder **/ (root)**, click **Save**.
 6. After 1 to 2 minutes your link appears at the top of that page: `https://YOUR-USERNAME.github.io/onefit-connect-app/`
 
 ## Link the dashboard inside the app (optional)
-After the dashboard is published, open `js/config.js` on GitHub (pencil icon), paste its link into `DASHBOARD_URL`, and commit. A dashboard button then appears in the Manager screens.
+After the dashboard is published, open `config.js` on GitHub (pencil icon), paste its link into `DASHBOARD_URL`, and commit. A dashboard button then appears in the Manager screens.
 
 ## What is in the prototype
 - Landing page with three no-password roles: Member, Front-desk staff, Manager
